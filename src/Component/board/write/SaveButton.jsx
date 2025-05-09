@@ -1,11 +1,15 @@
 import { styled } from "styled-components";
 import saveImg from "./image/save/Save.png";
 import tmpSaveImg from "./image/save/tmpSave.png";
+import updateImg from "./image/save/Update.png"
+import deleteImg from "./image/save/Delete.png"
 
 
 const iamgeList = {
     save:saveImg,
-    tmpSave:tmpSaveImg
+    tmpSave:tmpSaveImg,
+    update:updateImg,
+    delete:deleteImg
 }
 ;
 

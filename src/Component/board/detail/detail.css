@@ -14,30 +14,9 @@
    
 }
 
-#detail-title{
-    display: flex;
-    
-    margin: 15px;
-}
 
-#title-element2{
-    margin-left: auto;
-    
-    
-}
 
-#detail-content{
-    margin: 15px;
-}
 
-#detail-bottom{
-    display: flex;
-}
-
-#detail-bottom-element1{
-    margin: 15px;
-    margin-top: 0px;
-}
 
 #detail-bottom-element2{
     
@@ -53,23 +32,9 @@
     
 }
 
-#blue-bar-e1{
-    margin: 10px;
-    margin-left: 20px;
-}
 
 
-.btn button{
-    border: 0;
-    background-color: transparent;
-    cursor: pointer;
-}
-
-#reply{
-    margin: 20px;
-}
-
-#reply textarea{
+textarea{
     border: 1px solid black;
 }
 

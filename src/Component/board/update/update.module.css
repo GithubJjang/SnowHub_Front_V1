@@ -1,0 +1,13 @@
+#body{
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+.element{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-top: 1px solid;
+    border-color: rgb(156, 163, 175);
+}

@@ -31,24 +31,28 @@ const LoginPage = ()=>{
 
   // 첫 useEffect() -> login = ''  -> setLogin() - > 재렌더링. 그래서 값을 비워두자.
   useEffect(()=>{
+
+    // 테스트
+    // console.log("현재 쿠키:", document.cookie); // 쿠키 확인
     setLogin(getCookie('IdTokenCookie'));
   },[login])
 
+
   // 로그인 페이지.
+  // meta 부분 헬멧으로 변환하기(fix)
   const loginPage=(
     <div>
               <meta charSet="utf-8"/>
               <meta name="viewport" content="width=device-width,initial-scale=1" />
         
-
                   <div id="container">
 
-                      <div id="sky"></div>  
+                      <div id="sky"/>
                     
                       <div id="loginForm">
                           
                           <SnowHub image={snowhub}/>
-                            <h2 style={{marginTop: 50}}>로그인</h2>
+                            <h2>로그인</h2>
                           <LoginButton supplier={'naver'}/>
                           <LoginButton supplier={'google'}/>
                           <LoginButton supplier={'kakao'}/>
@@ -67,6 +71,8 @@ const LoginPage = ()=>{
 }
 
 export default LoginPage;
+
+// <h2 style={{marginTop: 50}}>로그인</h2>
 
 /*
 

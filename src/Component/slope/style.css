@@ -1,0 +1,52 @@
+#container{
+    display: flex;
+    background-color: rgb(232, 241, 255);
+
+    width: auto;
+    height: auto;
+}
+
+#list{
+    height: auto;
+    background-color: rgb(232, 241, 255);
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+#info{
+    background-color: white;/* flex-grow: 1; flex 여백 가득채우기*/
+    flex-grow: 1;
+    /*align-items: center;*/ /* 항상 가운데 배치가 되어서 바로 상위 div에 속성이 적용이 안된다.*/
+    justify-content: center;
+    display: flex;
+    
+
+}
+
+#pinkbox{
+    background-color: rgb(246,	233, 255);
+
+    width: 90%;
+    height: auto;
+    margin-right: 5%;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    flex: 1 1 0;
+
+}
+
+#logo1{
+    background-image: url(./LogoImage/High1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    width: 104px; 
+    height: 104px; 
+}
+

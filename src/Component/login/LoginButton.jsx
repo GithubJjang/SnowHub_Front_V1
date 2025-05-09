@@ -5,6 +5,7 @@ import kakaoImg from "./images/kakao_login.png";
 import naverImg from "./images/naver_login.png";
 import appleImg from "./images/apple_login.png";
 
+// 분리1(fix)
 const loginUrl = {
     google:'https://accounts.google.com/o/oauth2/v2/auth?client_id=477737423484-bdni5k16hncmbpcccl3ff9bqgq50c2fm.apps.googleusercontent.com&redirect_uri=http://localhost:8000/auth/google&response_type=code&scope=https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile&access_type=offline&prompt=consent',
     kakao:'https://kauth.kakao.com/oauth/authorize?client_id=fcc716b8e5ae872c9c4ca01b821f3dea&redirect_uri=http://localhost:8000/auth/kakao&response_type=code&prompt=login',

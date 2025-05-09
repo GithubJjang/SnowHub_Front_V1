@@ -17,7 +17,7 @@
 }
 
 /* BoardList를 위한 속성*/
-#boardlist{
+#board_main{
     width: 100px;
     
     border: 1px solid;
@@ -25,35 +25,31 @@
     width: 60vw;
 }
 
-
-/**/
-
-#boardlist_1{
+#all_posts{
     margin-left: 20px;
 }
 
-/**/
-#boardlist_2{
+#board_list_items{
     display: grid;
     background-color: rgb(96, 135, 211);
     grid-template-columns: 7fr 1fr 1fr 1fr;
     padding: 5px;
 }
 
-#first{
-    flex-grow: 7;
-}
-
-.element1{
-    flex-grow: 1;
-    text-align: center;
-    color: white;
-}
-/**/
-.content_conatiner{
-    margin-left:  5px;
+#board_frame{
+    margin-left: 5px;
     margin-right: 3px;
 }
+
+.just_align_center{
+    text-align: center;
+}
+
+.just_align_left{
+    text-align: left;
+}
+
+/**/
 .content{
     display: grid;
     grid-template-columns: 1.5fr 5.5fr 1fr 1fr 1fr;
@@ -63,13 +59,7 @@
     
 }
 
-.c{
-    text-align:center;
-}
-
-.c_title{
-    text-align:left;
-}
+/**/
 
 #pagination{
     width:  60vw;
@@ -89,6 +79,3 @@
     height: 40px;
 }
 
-.page_btn{
-    background-color: rgb(232,241,255);
-}

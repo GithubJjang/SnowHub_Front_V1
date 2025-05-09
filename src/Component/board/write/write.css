@@ -1,20 +1,3 @@
-#header{
-    /* background 설정*/
-    height: 72px;
-    background-color: rgb(232, 241, 255);
-
-    /* display 설정*/
-    display: flex;
-    /*justify-content: center;  수평 가운데 정렬 */
-    align-items: center; /* 수직 가운데 정렬 */
-}
-
-#header_body{
-    display: flex;
-    flex-grow: inherit;
-    width:  60vw;
-    margin-left: 20%;
-}
 
 #logo{
     font-size: 24px; 
@@ -22,21 +5,17 @@
     font-weight: bolder;
 }
 
-#slope{
-    margin-left: 40%;
+#editor{
+    background-color: white;
+    min-height: 850px;
 }
 
-.header_component{
-    font-size: 20px;
-    font-weight: 600;
-    font-family: Arial, Helvetica, sans-serif;
-    border: 0;
-    outline: 0;
-    background-color: rgb(232, 241, 255);
-    flex-grow: 1;
-    text-align: right;
-    
+
+#write_my_board{
+    margin-left: 5%;
+    margin-right: 5%;
 }
+
 /**/
 #community_body{
     display: flex;
@@ -51,12 +30,6 @@
     width: 60vw;
      /*짤림 현상 발생: 수정 필요할 듯! 800px*/
 }
-/*
-#innerbox{
-    margin-left: 5%;
-    margin-right: 5%;
-}
-*/
 
 #whitebox1{
     background-color: rgb(232,	241,255);
@@ -84,21 +57,7 @@
     height: 80px;
     background-size: 100% 100%;
 }
-/* height: 70vh;*/
-#boardwrite{
-    background-color: white;
-    min-height: 850px;
-    /* 브라우저 크기가 487px 보다 작으면 짤림 논의해봐야 할 듯.  height: 70vh;*/
-}
-/*
-#font_option{
-    display: flex;
-    height: 50px;
-    background-color: white;
-    border-bottom: 2px solid;
-    border-color: rgb(	147,147,147);
-}
-*/
+
 
 #select{
     outline: 0px;
@@ -109,9 +68,11 @@ input{
     outline: none;
 
 }
+
 #content{
     height: auto;
 }
+
 
 #title{
     border-bottom: 2px solid;
@@ -147,7 +108,21 @@ textarea{
 
 }
 
-/* Footer Css*/
+
+/* Quill Css*/
+.ql-toolbar.ql-snow{
+    border: 0px solid #ccc !important;
+    border-bottom: 1px solid #ccc !important;
+}
+
+
+.ql-container.ql-snow {
+    border: 0px !important;
+}
+.quill{
+    height: 100%;
+}
+
 
 #footer{
     flex: 1;/* flex 남은 부분 가득 채우기*/
@@ -163,79 +138,3 @@ textarea{
     grid-template-columns: 1fr 1fr;
    
 }
-
-
-#tmpSave{
-    background-image: url(./image/save/tmpSave.png);
-    width: 127px;
-    height: 39px;
-}
-
-#Save{
-    background-image: url(./image/save/Save.png);
-    width: 127px;
-    height: 39px;
-}
-
-
-
-
-
-#footer_1{
-    display: grid;
-    grid-column-gap: 10px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-#footer_2{
-    display: grid;
-    grid-column-gap: 10px;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-items: end;
-}
-
-/* Quill Css*/
-/*
-.text-editor{
-    height: 100%;
-    max-height: 450px;
-}
-*/
-
-.ql-toolbar.ql-snow{
-    border: 0px solid #ccc;
-    border-bottom: 1px solid #ccc;
-}
-
-.ql-container.ql-snow {
-    border: 0px;
-}
-.quill{
-    height: 100%;
-}
-
-
-
-/*
-#smalltalk{
-    background-image: url(./image/category/web/smalltalk.png);
-}
-#share{
-    background-image: url(./image/category/web/share.png);
-}
-#useafter{
-    background-image: url(./image/category/web/userafter.png);
-}
-#season{
-    background-image: url(./image/category/web/season.png);
-    width: 86px;
-    height: 33px;
-}
-
-
-.footer_element{
-    background-size: 100%;
-    width: 100px;
-    height: 33px;
-}
-
-*/
